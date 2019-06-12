@@ -1,0 +1,417 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+    <category>
+        <pattern>BONJOUR</pattern>
+        <template>Bonjour, je suis votre guide touristique d’Éïnlante. N’hésitez pas
+            à me poser des question sur le pays, son histoire, sa culture et sa
+            langue !</template>
+    </category>
+    <category>
+        <pattern>BONJOUR *</pattern>
+        <template>
+            <srai>BONJOUR</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SALUT *</pattern>
+        <template>
+            <srai>BONJOUR</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BOT</pattern>
+        <template>Je suis un bot programmé afin d’informer les personnes sur
+            Éïnlante et sa culture.</template>
+    </category>
+    <category>
+        <pattern>AUTHOR</pattern>
+        <template>
+            J’ai été créé par Lucien « Phundrak » Cartier-Tilet. Vous pouvez
+            trouver son site ici : https://phundrak.fr
+        </template>
+    </category>
+    <category>
+        <pattern>WHO * CRÉATEUR</pattern>
+        <template>
+            <srai>AUTHOR</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO * PROGRAMMEUR</pattern>
+        <template>
+            <srai>AUTHOR</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO * AUTEUR</pattern>
+        <template>
+            <srai>AUTHOR</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO TU</pattern>
+        <template>
+            <srai>BOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>QUI ES TU</pattern>
+        <template>
+            <srai>BOT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>QUI EST *</pattern>
+        <template>
+            <srai>WHO<star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PEOPLE</pattern>
+        <template>Le peuple d’Éïnlante est le peuple Matté, descendant de divers
+            peuples nordiques, principalement norvégiens, ayant colonisé l’île entre le
+            IXème siècle et le XIIème siècle.</template>
+    </category>
+    <category>
+        <pattern>EINLANT</pattern>
+        <template>Éïnlante est un pays et une île fictifs situés au sud-est du
+            Groënland.</template>
+    </category>
+    <category>
+        <pattern>WHERE</pattern>
+        <template>
+            L’Éïnlante se situe au sud-est du Groënland et au sud-ouest de
+            l’Islande, à peu près à la même latitude que l’Écosse. Vous pouvez
+            ci-dessous voir une carte de la région d’Éïnlante sur le globe pour vous
+            faire une idée : https://cdn.phundrak.fr/img/einlant-world.jpg
+        </template>
+    </category>
+    <category>
+        <pattern>* QUOI ÉÏNLANTE</pattern>
+        <template>
+            <srai>EINLANT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* QUOI EINLANTE</pattern>
+        <template>
+            <srai>EINLANT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PEUPLE *</pattern>
+        <template>
+            <srai>PEOPLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>OÙ *</pattern>
+        <template>
+            <srai>WHERE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CULTURE *</pattern>
+        <template>La culture du peuple Matté est très proche des cultures nordiques,
+            et elle a conservé jusqu’à nos jours l’esprit païen qu’avaient encore les
+            autres cultures nordiques il y a un millénaire.</template>
+    </category>
+    <category>
+        <pattern>* LANGUE *</pattern>
+        <template>La langue parlée en Éïnlante est le Mattér. Vous pouvez trouver
+            plus d’information sur cette langue à l’adresse suivante :
+            https://langue.phundrak.fr/matter
+        </template>
+    </category>
+    <category>
+        <pattern>CARTE</pattern>
+        <template>
+            Cette carte du XVIIème siècle est plutôt connue :
+            https://langue.phundrak.fr/matter/einlant-old-map.jpeg
+        </template>
+    </category>
+    <category>
+        <pattern>* CARTE *</pattern>
+        <template>
+            <srai>CARTE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HURFIALTHERE VILLE</pattern>
+        <template>
+            <set name="topic">Hurfialthère</set> (ou Hyrfialþær) est la ville principale à l’est, et la première ville fondée sur l’île.
+        </template>
+    </category>
+    <category>
+        <pattern>DHEBERGETTE VILLE</pattern>
+        <template>Dhébergette (ou Ðeberget) est la capitale d’Éïnlante.</template>
+    </category>
+    <category>
+        <pattern>RAND VILLES</pattern>
+        <template>
+            <random>
+                <li>
+                    <srai>HURFIALTHERE VILLE</srai>
+                </li>
+                <li>
+                    <srai>DHEBERGETTE VILLE</srai>
+                </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>* DHÉBERGETTE</pattern>
+        <template>
+            <srai>DHEBERGETTE VILLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DHÉBERGETTE *</pattern>
+        <template>
+            <srai>DHEBERGETTE VILLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HURFIALTHÈRE</pattern>
+        <template>
+            <srai>HURFIALTHeRE VILLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HURFIALTHÈRE *</pattern>
+        <template>
+            <srai>HURFIALTHÈRE VILLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* UNE VILLE</pattern>
+        <template>
+            <srai>RAND VILLES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>VILLES</pattern>
+        <template>Les deux villes principales d’Éïnlante sont Dhébergette et Hurfialthère.</template>
+    </category>
+    <category>
+        <pattern>* VILLES PRINCIPALES *</pattern>
+        <template>
+            <srai>VILLES</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* VILLES PRINCIPALES</pattern>
+        <template>
+            <srai>VILLES</srai>
+        </template>
+    </category>
+
+
+    <topic name="Hurfialthère">
+        <category>
+            <pattern>FOUNDATION</pattern>
+            <template>Hurfialthère fût fondée en 882, date marquant également la fondation du pays.</template>
+        </category>
+        <category>
+            <pattern>ECONOMY</pattern>
+            <template>L’économie d’Hurfialthère, comme celle de beaucoup d’autres villes d’Éïnlante, est principalement basée sur la pêche, la banque et le commerce. Il s’agit de la seconde ville la plus riche du pays après Dhébergette.</template>
+        </category>
+        <category>
+            <pattern>* ORIGINE</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ORIGINES</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ORIGINE *</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ORIGINES *</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ÉCONOMIE *</pattern>
+            <template>
+
+                <srai>ECONOMY</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ÉCONOMIE</pattern>
+            <template>
+
+                <srai>ECONOMY</srai>
+
+            </template>
+        </category>
+    </topic>
+
+
+
+    <topic name="Dhébergette">
+        <category>
+            <pattern>FOUNDATION</pattern>
+            <template>Dhébergette fût fondée en 884, soit deux ans après Hurfialthère, marquant le début de la colonisation de la partie occidentale de l’île. Elle devint sa capitale cinquante-trois ans plus tard lors de la déclaration l’indépendance d’Éïnlante.</template>
+        </category>
+        <category>
+            <pattern>ECONOMY</pattern>
+            <template>L’économie de Dhébergette repose principalement sur la pêche et le commerce, mais également sur les services banquaires. Cette ville est la ville la plus importante d’un point de vue économique en Éïnlante.</template>
+        </category>
+        <category>
+            <pattern>* ORIGINE</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ORIGINES</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ORIGINE *</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ORIGINES *</pattern>
+            <template>
+
+                <srai>FOUNDATION</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ÉCONOMIE *</pattern>
+            <template>
+
+                <srai>ECONOMY</srai>
+
+            </template>
+        </category>
+        <category>
+            <pattern>* ÉCONOMIE</pattern>
+            <template>
+
+                <srai>ECONOMY</srai>
+
+            </template>
+        </category>
+    </topic>
+    <category>
+        <pattern>HISTOIRE COURTE</pattern>
+        <template>Éïnlante fut découverte en 863 et fondée en 882. Elle fut en
+            guerre deux fois, en 1397 contre la Suède, perdant ses territoires
+            Groënlandais mais gardant son indépendance, et contre une invasion du
+            Royaume Uni en 1734.</template>
+    </category>
+    <category>
+        <pattern>* GUERRE * ROYAUME *</pattern>
+        <template>Le Royaume Uni attaqua l’Éïnlante durant l’été 1734 depuis le
+            Canada, tentant alors de prendre l’île comme point de relais entre
+            l’Angleterre et le Nouveau Monde. Cependant, l’attaque fût un échec et la
+            paix fût signée la même année avec le Traité d’Amsterdam de 1734.</template>
+    </category>
+    <category>
+        <pattern>* GUERRE * SUÈDE</pattern>
+        <template>Lors de la formation de l’Union de Kalmar, l’Éïnlante refusa de
+            s’unifier avec la scandinavie, le Danemark et l’Islande. Une tentative
+            militaire d’annexation fut lancée par l’Union contre l’Éïnlante, mais une
+            éruption coïncida avec l’invasion navale, détruisant plusieurs bateaux de
+            l’Union et forçant cette dernière à abandonner son projet. Cependant,
+            l’Union annexera tout de même les possession d’Éïnlante au
+            Groënland.</template>
+    </category>
+    <category>
+        <pattern>DEBUT</pattern>
+        <template></template>
+    </category>
+    <category>
+        <pattern>* HISTOIRE *</pattern>
+        <template>
+            <srai>HISTOIRE COURTE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HISTOIRE</pattern>
+        <template>
+            <srai>HISTOIRE COURTE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RÉSUMÉ * HISTOIRE *</pattern>
+        <template>
+            <srai>HISTOIRE COURTE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DÉBUTS *</pattern>
+        <template>
+            <srai>DEBUT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FOUNDATION</pattern>
+        <template>Éïnlante a été fondée en 882, soit 19 ans après sa découverte en
+            863. La fondation du pays fût marquée par la création de sa première ville,
+            Hurfialthère.</template>
+    </category>
+    <category>
+        <pattern>* ORIGINE</pattern>
+        <template>
+            <srai>FOUNDATION</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ORIGINES</pattern>
+        <template>
+            <srai>FOUNDATION</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ORIGINE *</pattern>
+        <template>
+            <srai>FOUNDATION</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* ORIGINES *</pattern>
+        <template>
+            <srai>FOUNDATION</srai>
+        </template>
+    </category>
+</aiml>

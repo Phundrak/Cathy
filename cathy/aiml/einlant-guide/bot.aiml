@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>BONJOUR</pattern>
+        <template>Bonjour, je suis votre guide touristique d’Éïnlante. N’hésitez pas
+            à me poser des question sur le pays, son histoire, sa culture et sa
+            langue !</template>
+    </category>
+    <category>
+        <pattern>BONJOUR *</pattern>
+        <template><srai>BONJOUR</srai></template>
+    </category>
+    <category>
+        <pattern>SALUT *</pattern>
+        <template><srai>BONJOUR</srai></template>
+    </category>
+    <category>
+        <pattern>BOT</pattern>
+        <template>Je suis un bot programmé afin d’informer les personnes sur
+            Éïnlante et sa culture.</template>
+    </category>
+    <category>
+        <pattern>AUTHOR</pattern>
+        <template>
+            J’ai été créé par Lucien « Phundrak » Cartier-Tilet. Vous pouvez
+            trouver son site ici : https://phundrak.fr
+        </template>
+    </category>
+    <category>
+        <pattern>WHO * CRÉATEUR</pattern>
+        <template><srai>AUTHOR</srai></template>
+    </category>
+    <category>
+        <pattern>WHO * PROGRAMMEUR</pattern>
+        <template><srai>AUTHOR</srai></template>
+    </category>
+    <category>
+        <pattern>WHO * AUTEUR</pattern>
+        <template><srai>AUTHOR</srai></template>
+    </category>
+    <category>
+        <pattern>WHO TU</pattern>
+        <template><srai>BOT</srai></template>
+    </category>
+    <category>
+        <pattern>QUI ES TU</pattern>
+        <template><srai>BOT</srai></template>
+    </category>
+    <category>
+        <pattern>QUI EST *</pattern>
+        <template><srai>WHO <star /></srai></template>
+    </category>
+</aiml>

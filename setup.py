@@ -17,14 +17,15 @@ setup(
     package_data={
         'cathy': [
             'std-startup.xml',
-            'aiml/alice/*.aiml',
-            'aiml/custom/*.aiml'
+            'aiml/custom/*.aiml',
+            'aiml/einlant-guide/*.aiml'
         ],
     },
     zip_safe=False,
     install_requires=[
         'docopt',
         'python-aiml',
+        'python-slugify',
         'discord.py==0.16.12',
         'requests',
     ],

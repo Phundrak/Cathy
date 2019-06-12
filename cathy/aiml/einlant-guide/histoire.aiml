@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>HISTOIRE COURTE</pattern>
+    <template>Éïnlante fut découverte en 863 et fondée en 882. Elle fut en
+    guerre deux fois, en 1397 contre la Suède, perdant ses territoires
+    Groënlandais mais gardant son indépendance, et contre une invasion du
+    Royaume Uni en 1734.</template>
+  </category>
+  <category>
+    <pattern>* GUERRE * ROYAUME *</pattern>
+    <template>Le Royaume Uni attaqua l’Éïnlante durant l’été 1734 depuis le
+    Canada, tentant alors de prendre l’île comme point de relais entre
+    l’Angleterre et le Nouveau Monde. Cependant, l’attaque fût un échec et la
+    paix fût signée la même année avec le Traité d’Amsterdam de 1734.</template>
+  </category>
+  <category>
+    <pattern>* GUERRE * SUÈDE</pattern>
+    <template>Lors de la formation de l’Union de Kalmar, l’Éïnlante refusa de
+    s’unifier avec la scandinavie, le Danemark et l’Islande. Une tentative
+    militaire d’annexation fut lancée par l’Union contre l’Éïnlante, mais une
+    éruption coïncida avec l’invasion navale, détruisant plusieurs bateaux de
+    l’Union et forçant cette dernière à abandonner son projet. Cependant,
+    l’Union annexera tout de même les possession d’Éïnlante au
+    Groënland.</template>
+  </category>
+  <category>
+    <pattern>DEBUT</pattern>
+    <template></template>
+  </category>
+  <category>
+    <pattern>* HISTOIRE *</pattern>
+    <template>
+      <srai>HISTOIRE COURTE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HISTOIRE</pattern>
+    <template>
+      <srai>HISTOIRE COURTE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RÉSUMÉ * HISTOIRE *</pattern>
+    <template>
+      <srai>HISTOIRE COURTE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* DÉBUTS *</pattern>
+    <template>
+      <srai>DEBUT</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FOUNDATION</pattern>
+    <template>Éïnlante a été fondée en 882, soit 19 ans après sa découverte en
+    863. La fondation du pays fût marquée par la création de sa première ville,
+    Hurfialthère.</template>
+  </category>
+  <category>
+    <pattern>* ORIGINE</pattern>
+    <template>
+      <srai>FOUNDATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ORIGINES</pattern>
+    <template>
+      <srai>FOUNDATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ORIGINE *</pattern>
+    <template>
+      <srai>FOUNDATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ORIGINES *</pattern>
+    <template>
+      <srai>FOUNDATION</srai>
+    </template>
+  </category>
+</aiml>

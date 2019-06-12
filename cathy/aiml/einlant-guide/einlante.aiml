@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>PEOPLE</pattern>
+        <template>Le peuple d’Éïnlante est le peuple Matté, descendant de divers
+            peuples nordiques, principalement norvégiens, ayant colonisé l’île entre le
+            IXème siècle et le XIIème siècle.</template>
+    </category>
+    <category>
+        <pattern>EINLANT</pattern>
+        <template>Éïnlante est un pays et une île fictifs situés au sud-est du
+            Groënland.</template>
+    </category>
+    <category>
+        <pattern>WHERE</pattern>
+        <template>L’Éïnlante se situe au sud-est du Groënland et au sud-ouest de
+            l’Islande, à peu près à la même latitude que l’Écosse. Vous pouvez
+            ci-dessous voir une carte de la région d’Éïnlante sur le globe pour vous
+            faire une idée : https://cdn.phundrak.fr/img/einlant-world.jpg</template>
+    </category>
+    <category>
+        <pattern>* QUOI ÉÏNLANTE</pattern>
+        <template><srai>EINLANT</srai></template>
+    </category>
+    <category>
+        <pattern>* QUOI EINLANTE</pattern>
+        <template><srai>EINLANT</srai></template>
+    </category>
+    <category>
+        <pattern>* PEUPLE *</pattern>
+        <template><srai>PEOPLE</srai></template>
+    </category>
+    <category>
+        <pattern>OÙ *</pattern>
+        <template><srai>WHERE</srai></template>
+    </category>
+    <category>
+        <pattern>* CULTURE *</pattern>
+        <template>La culture du peuple Matté est très proche des cultures nordiques,
+            et elle a conservé jusqu’à nos jours l’esprit païen qu’avaient encore les
+            autres cultures nordiques il y a un millénaire.</template>
+    </category>
+    <category>
+        <pattern>* LANGUE *</pattern>
+        <template>La langue parlée en Éïnlante est le Mattér. Vous pouvez trouver
+            plus d’information sur cette langue à l’adresse suivante : https://langue.phundrak.fr/matter
+        </template>
+    </category>
+</aiml>

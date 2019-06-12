@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  bot:
+    build: .
+    command: cathy einlant-tourism NTgyNzUzMTc5NjcwODA2NTM0.XOyZeg.L3hHlWEmJ-vf5tlHw1rp274Xwb4
+    volumes:
+      - .:/code/
+      - ./cathy/aiml/custom:/code/cathy/aiml/custom
